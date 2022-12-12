@@ -1,0 +1,23 @@
+{
+  "name": "intro_nodejs",
+  "version": "1.0.0",
+  "description": "Curso de introdução ao NodeJS do canal DicasParaDevs do Felipe Rocha",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodeJS",
+    "Intro"
+  ],
+  "author": "João Pedro Nogueira",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}
